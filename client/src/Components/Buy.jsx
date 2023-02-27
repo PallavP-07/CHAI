@@ -20,10 +20,10 @@ function Buy({ state }) {
     <>
       <div>
 
-        <form onSubmit={buyChai}>
+        <form   onSubmit={buyChai}>
           <input type="text" className='field' id="name" placeholder='Enter your name' />
           <input type="text" className='field' id="message" placeholder='Enter your Message' />
-          <button >Pay</button>
+          <button  className='btn'>Pay</button>
 
         </form>
       </div>

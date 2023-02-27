@@ -38,8 +38,8 @@ setState({provider,signer,contract})
         <div className='Main'>
           <Quotes/>
           <Buy state={state} />
-        </div>
           <Memo state={state} />
+        </div>
       </div>
 
     </>
